@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Clean and modern font */
+  background-color: #f5f5f5; /* Light grey background for overall site */
+  color: #333; /* Dark text color for readability */
+  margin: 0;
+  padding-top: 70px; /* Offset for fixed navbar */
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  white-space: nowrap;
+  text-align: center;
+  font-weight: bold;
+  color: #020101;
+  background-color: #e0e0e0; /* Lighter dark background */
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.navbar-nav .nav-link {
+  color: #020101;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #aaaaaa; /* Slightly lighter shade on hover */
+}
+
+/* Card Styles for Skills, Achievements, and Contact Info */
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 10px; /* Rounded corners */
+  border: none; /* Clean look with no border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition effects */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Larger font size for titles */
+  font-weight: bold; /* Bold font for emphasis */
+  color: #020101; /* Accent color for the title */
+  text-transform: uppercase; /* Capitalize titles */
+}
+
+.card-text {
+  font-size: 1rem; /* Standard font size for text */
+  line-height: 1.6; /* Comfortable line spacing */
+  color: #555; /* Medium grey text for readability */
+  margin-bottom: 15px; /* Space below each paragraph */
+  text-align: justify;
+}
+
+.card .fa-2x {
+  color: #4caf50; /* Accent color for icons */
+  margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff; /* Primary color for buttons */
+  border: none; /* No border */
+  color: #ffffff; /* White text for contrast */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  padding: 10px 20px; /* Padding for a better look */
+  border-radius: 5px; /* Rounded button */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-secondary {
+  background-color: #4caf50; /* Consistent green button */
+  border: none; /* No border */
+  color: #ffffff; /* White text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  padding: 10px 20px; /* Padding for a better look */
+  border-radius: 5px; /* Rounded button */
+}
+
+.btn-secondary:hover {
+  background-color: #388e3c; /* Darker green shade on hover */
+}
+
+.btn-light {
+  background-color: #3a3a3a; /* Dark button color */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #555555; /* Darker shade on hover */
+}
+
+/* Image Styles */
+.img-fluid {
+  max-width: 150px; /* Limit profile picture size */
+  border: 4px solid #4caf50; /* Accent color border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for image */
+  border-radius: 50%; /* Make image circular */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-color: #e0e0e0; /* Light background for jumbotron */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  padding: 40px; /* Padding for spacing */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .card-title {
+      font-size: 1.2rem;
+  }
+
+  .card-text {
+      font-size: 0.9rem;
+  }
+}

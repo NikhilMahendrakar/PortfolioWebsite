@@ -1,0 +1,65 @@
+@page
+@model AboutModel
+@{
+    ViewData["Title"] = "About Me";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add any additional custom styles here */
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5 pt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 mb-4">
+                <div class="card shadow-lg border-0">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-4 text-center py-4">
+                            <!-- Use an absolute URL for the image source -->
+                            <img src="~/images/Picture.jpg" class="img-fluid border"
+     alt="Profile Picture" style="width: 300px; height: 300px; object-fit: cover;">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">About Me</h1>
+                                <p class="card-text">
+                                    I am a Software Developer with two years of experience in building production-level
+                                    applications using C#, .NET Core, NodeJS, and ReactJS. Having worked at top-tier
+                                    companies like Siemens, I have developed robust code and built applications used
+                                    globally, demonstrating my capability to deliver high-quality solutions. In addition
+                                    to my professional experience, I have demonstrated strong problem-solving abilities,
+                                    being ranked among the top 10% in the country in the GATE 2021 exam in Computer
+                                    Science, which evaluates engineering graduates across India. This achievement
+                                    underscores my proficiency in tackling complex challenges and my dedication to
+                                    continuous learning and improvement. I am confident that I would be a valuable
+                                    addition to your team, bringing both technical expertise and a strong commitment to
+                                    excellence.
+                                </p>
+                                <p class="card-text">
+                                    Feel free to download my resume below:
+                                </p>
+                                <a href="https://drive.google.com/file/d/15rzYNS6Apgy4udt_zN9F3KdX1DOylp3S/view?usp=sharing"
+                                    class="btn btn-secondary mt-3" target="_blank">
+                                    <i class="fas fa-download"></i> Download My Resume
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
