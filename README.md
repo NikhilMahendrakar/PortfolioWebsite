@@ -1,1 +1,1 @@
-This project is a personal portfolio website designed to showcase the professional skills, experience, and projects of a software developer. Built using ASP.NET Core with Razor Pages, the site utilizes a responsive design powered by Bootstrap for a modern and user-friendly interface.
+This project is a personal portfolio website designed to showcase my professional skills, experience, and projects . Built using ASP.NET Core with Razor Pages, the site utilizes a responsive design powered by Bootstrap for a modern and user-friendly interface.
