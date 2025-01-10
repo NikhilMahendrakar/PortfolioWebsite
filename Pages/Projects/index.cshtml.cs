@@ -72,7 +72,7 @@ namespace PortfolioWebsite.Pages.Projects
                     Description = "This paper aims to find numerical patterns in various sentences. This project aims to provide a range of numerical values given a sentence containing complex emotions. These numerical values can then be used for various other data analytics.",
                     ImageUrl = "project2.jpg",  // Ensure the image exists in the wwwroot/images directory
                     ProjectUrl = "https://github.com/NikhilMahendrakar/NumericalPatterninSentimentAnalysis.git",
-                    Technologies = "C#, .NET Core, HTML, CSS, Azure",
+                    Technologies = "Python, BERT, Machine Learning",
                     
                     IsWebsite =false
                 },
